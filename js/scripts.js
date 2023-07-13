@@ -486,6 +486,14 @@ document.addEventListener('DOMContentLoaded', function () {
 			$item.addClass('active').find('.data').slideDown(300)
 		}
 	})
+
+
+	// Залипание блока
+	if (WW > 1023) {
+		let stickyElements = document.querySelectorAll('.sticky')
+
+		stickyElements.forEach(el => new hcSticky(el))
+	}
 })
 
 

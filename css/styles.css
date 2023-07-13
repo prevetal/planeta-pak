@@ -2096,7 +2096,7 @@ aside
 
 .form .field.row .input
 {
-    width: calc(50% - 14px);
+    width: calc(50% - 11px);
 }
 
 
@@ -4969,10 +4969,10 @@ aside
 
 
 
-/*---------------
-    Cart info
----------------*/
-.cart_info
+/*-------------------
+    Cart checkout
+-------------------*/
+.cart_checkout
 {
     margin-bottom: 80px;
 
@@ -4981,6 +4981,9 @@ aside
 
 
 
+/*---------------
+    Cart info
+---------------*/
 .cart_info .list > * + *
 {
     margin-top: 10px;
@@ -5205,7 +5208,10 @@ aside
 
 
 
-.cart_info .cart_total
+/*----------------
+    Cart total
+----------------*/
+.cart_total
 {
     padding: 30px 22px 22px;
 
@@ -5214,20 +5220,20 @@ aside
 }
 
 
-.cart_info .cart_total .item + .item
+.cart_total .item + .item
 {
     margin-top: 28px;
 }
 
 
-.cart_info .cart_total .item .label
+.cart_total .item .label
 {
     font-size: 17px;
     line-height: 94.4%;
 }
 
 
-.cart_info .cart_total .item .val
+.cart_total .item .val
 {
     font-size: 20px;
     font-weight: 700;
@@ -5237,7 +5243,7 @@ aside
 }
 
 
-.cart_info .cart_total .param
+.cart_total .param
 {
     font-size: 17px;
     line-height: 94.4%;
@@ -5252,13 +5258,13 @@ aside
     flex-wrap: wrap;
 }
 
-.cart_info .cart_total .param + .param
+.cart_total .param + .param
 {
     margin-top: 16px;
 }
 
 
-.cart_info .cart_total .checkout_btn
+.cart_total .checkout_btn
 {
     color: #fff;
     font-size: 19px;
@@ -5275,13 +5281,13 @@ aside
     background: #00b1e6;
 }
 
-.cart_info .cart_total .checkout_btn:hover
+.cart_total .checkout_btn:hover
 {
     background: linear-gradient(47.33deg, #fff761 -31.41%, #ffb000 48.62%, #fea804 54.68%, #fa930e 64.04%, #f46f1f 75.43%, #f15a29 81.45%);
 }
 
 
-.cart_info .cart_total .checkbox
+.cart_total .checkbox
 {
     font-size: 12px;
     line-height: 14px;
@@ -5303,13 +5309,13 @@ aside
 }
 
 
-.cart_info .cart_total .checkbox input
+.cart_total .checkbox input
 {
     display: none;
 }
 
 
-.cart_info .cart_total .checkbox .check
+.cart_total .checkbox .check
 {
     color: #0096c2;
 
@@ -5331,7 +5337,7 @@ aside
     flex-wrap: wrap;
 }
 
-.cart_info .cart_total .checkbox .check svg
+.cart_total .checkbox .check svg
 {
     display: block;
 
@@ -5344,7 +5350,7 @@ aside
 }
 
 
-.cart_info .cart_total .checkbox a
+.cart_total .checkbox a
 {
     color: #0096c2;
 
@@ -5352,7 +5358,7 @@ aside
 }
 
 
-.cart_info .cart_total .checkbox input:checked ~ .check svg
+.cart_total .checkbox input:checked ~ .check svg
 {
     opacity: 1;
 }
@@ -5364,7 +5370,7 @@ aside
 -------------------*/
 .checkout_info
 {
-    margin-bottom: 80px;
+    margin-top: 80px;
 }
 
 
@@ -5425,7 +5431,7 @@ aside
 .checkout_info .payment_methods > .row > *,
 .checkout_info .delivery_methods > .row > *
 {
-    width: calc(33.333% - 22px);
+    width: calc(50% - 22px);
     margin-bottom: 22px;
     margin-left: 22px;
 }
@@ -5611,6 +5617,8 @@ aside
 
 .checkout_info .submit
 {
+    display: none;
+
     padding-top: 24px;
 }
 

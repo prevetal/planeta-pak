@@ -141,7 +141,8 @@
     /*-------------------
         Checkout info
     -------------------*/
-    .checkout_info .section + .section {
+    .checkout_info .section + .section
+    {
         margin-top: 80px;
     }
 

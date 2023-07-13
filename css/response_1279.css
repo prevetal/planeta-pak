@@ -1139,21 +1139,31 @@
 
 
 
-    /*---------------
-        Cart info
-    ---------------*/
-    .cart_info
+    /*-------------------
+        Cart checkout
+    -------------------*/
+    .cart_checkout
     {
         --sidebar_width: 100%;
     }
 
 
-    .cart_info.content_flex .content
+    .cart_checkout.content_flex .content
     {
         width: 100%;
     }
 
 
+    .cart_checkout aside
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
     .cart_info .product
     {
         padding: 24px;
@@ -1203,11 +1213,15 @@
     }
 
 
-    .cart_info .cart_total
+
+    /*----------------
+        Cart total
+    ----------------*/
+    .cart_total
     {
         display: flex;
 
-        margin-top: 40px;
+        margin-top: 60px;
         padding: 24px;
 
         justify-content: flex-start;
@@ -1217,25 +1231,25 @@
     }
 
 
-    .cart_info .cart_total .item
+    .cart_total .item
     {
         width: 33.333%;
     }
 
-    .cart_info .cart_total .item + .item
+    .cart_total .item + .item
     {
         margin-top: 0;
     }
 
 
-    .cart_info .cart_total .item .label
+    .cart_total .item .label
     {
         font-size: var(--font_size);
         line-height: 100%;
     }
 
 
-    .cart_info .cart_total .item .val
+    .cart_total .item .val
     {
         font-size: 18px;
         line-height: 100%;
@@ -1244,7 +1258,7 @@
     }
 
 
-    .cart_info .cart_total .param
+    .cart_total .param
     {
         font-size: var(--font_size);
         line-height: 100%;
@@ -1254,19 +1268,19 @@
         justify-content: flex-start;
     }
 
-    .cart_info .cart_total .param + .param
+    .cart_total .param + .param
     {
         margin-top: 28px;
     }
 
 
-    .cart_info .cart_total .param .val
+    .cart_total .param .val
     {
         margin-left: 10px;
     }
 
 
-    .cart_info .cart_total .checkout_btn
+    .cart_total .checkout_btn
     {
         font-size: 18px;
         line-height: 22px;
@@ -1275,7 +1289,7 @@
     }
 
 
-    .cart_info .cart_total .checkbox
+    .cart_total .checkbox
     {
         margin-top: 12px;
         padding-left: 30px;
@@ -1312,6 +1326,12 @@
     .checkout_info .form .columns
     {
         --form_columns_offset: 24px;
+    }
+
+
+    .checkout_info .submit
+    {
+        display: flex;
     }
 
 

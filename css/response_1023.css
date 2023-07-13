@@ -833,15 +833,19 @@
 
 
 
-    /*---------------
-        Cart info
-    ---------------*/
-    .cart_info
+    /*-------------------
+        Cart checkout
+    -------------------*/
+    .cart_checkout
     {
         margin-bottom: 60px;
     }
 
 
+
+    /*---------------
+        Cart info
+    ---------------*/
     .cart_info .product > * + *
     {
         margin-left: 20px;
@@ -879,7 +883,7 @@
     -------------------*/
     .checkout_info
     {
-        margin-bottom: 60px;
+        margin-top: 60px;
     }
 
 

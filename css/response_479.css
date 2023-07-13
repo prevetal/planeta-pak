@@ -597,12 +597,15 @@
 
 
 
-    .cart_info .cart_total .item
+    /*----------------
+        Cart total
+    ----------------*/
+    .cart_total .item
     {
         width: 100%;
     }
 
-    .cart_info .cart_total .item .val
+    .cart_total .item .val
     {
         font-size: 16px;
     }
