@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#00B1E6">
+		<meta name="theme-color" content="#00B1E6">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<header>
+					<button class="close_btn"></button>
+
+					<div class="scroll">
+						<div class="data">
+							<div class="cont row">
+								<a href="/" class="logo">
+									<img src="images/logo.png" alt="">
+								</a>
+
+								<div class="contatcs">
+									<div class="phone">
+										<a href="tel:+79786458461">+7 (978) 645-84-61</a>
+									</div>
+
+									<button class="callback_btn modal_btn" data-modal="callback_modal">Обратный звонок</button>
+								</div>
+
+								<div class="contatcs">
+									<div class="phone">
+										<a href="tel:+79889402023">+7 (988) 940-20-23</a>
+									</div>
+
+									<div class="email">
+										<a href="mailto:info@info.ru">info@info.ru</a>
+									</div>
+								</div>
+
+								<div class="messengers">
+									<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									</a>
+									<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</a>
+
+									<div class="phone">
+										<a href="tel:+79265875306">+7 (926) 587-53-06</a>
+									</div>
+								</div>
+
+								<a href="/" class="cart_link">
+									<div class="icon">
+										<svg><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+										<span class="count">7</span>
+									</div>
+									<div>797 145 Р</div>
+								</a>
+							</div>
+						</div>
+
+						<div class="bottom">
+							<div class="cont">
+								<div class="row">
+									<div class="catalog modal_cont">
+										<button class="btn mini_modal_btn" data-modal-id="#catalog_modal">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_close2"></use></svg>
+
+											<span>Каталог</span>
+
+											<img data-src="images/bg_catalog_btn.png" alt="" class="bg lazyload">
+										</button>
+
+										<div class="mini_modal" id="catalog_modal">
+											<div>
+												<a href="/" class="sub_link">Курьерские пакеты</a>
+
+												<div class="sub">
+													<div><a href="/">Пакеты без кармана</a></div>
+													<div><a href="/">Пакеты с карманом</a></div>
+													<div><a href="/">Пакеты с ручкой</a></div>
+												</div>
+											</div>
+
+											<div><a href="/">Сейф-пакеты</a></div>
+											<div><a href="/">Почтовые пакеты</a></div>
+											<div><a href="/">Воздушно-пузырчатые пакеты</a></div>
+											<div><a href="/">Карманы для сопроводительной документации</a></div>
+											<div><a href="/">Воздушно-пузырчатая пленка</a></div>
+											<div><a href="/">Гофрокороба</a></div>
+											<div><a href="/">Пломбы</a></div>
+											<div><a href="/">ЗИП пакеты</a></div>
+											<div><a href="/">Стретч пленка</a></div>
+											<div><a href="/">Скотч</a></div>
+											<div><a href="/">Этикетки</a></div>
+										</div>
+									</div>
+
+									<nav class="menu row">
+										<div class="menu_item">
+											<a href="/">О компании</a>
+										</div>
+
+										<div class="sep"></div>
+
+										<div class="menu_item">
+											<a href="/">Доставка</a>
+										</div>
+
+										<div class="sep"></div>
+
+										<div class="menu_item">
+											<a href="/">Оплата</a>
+										</div>
+
+										<div class="sep"></div>
+
+										<div class="menu_item">
+											<a href="/">Контакты</a>
+										</div>
+									</nav>
+
+									<div class="search">
+										<form action="">
+											<input type="text" name="" value="" class="input" placeholder="Поиск по сайту">
+
+											<button type="submit" class="submit_btn">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+												<img data-src="images/bg_search_btn.png" alt="" class="bg lazyload">
+											</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_header">
+					<div class="cont row">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="contacts">
+							<div class="phone">
+								<a href="tel:+79786458461">+7 (978) 645-84-61</a>
+							</div>
+
+							<button class="callback_btn modal_btn" data-modal="login_modal">Обратный звонок</button>
+						</div>
+
+						<a href="/" class="cart_link">
+							<div class="icon">
+								<svg><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								<span class="count">7</span>
+							</div>
+						</a>
+
+						<button class="mob_menu_btn">
+							<span></span>
+						</button>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep"></span>
+							<span class="current">Корзина</span>
+						</div>
+
+						<h1 class="page_title">Корзина</h1>
+					</div>
+				</section>
+
+
+				<section class="cart_info content_flex">
+					<div class="cont row">
+						<section class="content">
+							<div class="list">
+								<div class="product">
+									<a href="/" class="thumb" target="_blank">
+										<img data-src="images/tmp/product_img.jpg" alt="" class="lazyload">
+									</a>
+
+									<div class="info">
+										<div class="name">
+											<a href="/" target="_blank">Пакеты курьерские 110*210+40 без кармана/50 мкм</a>
+										</div>
+
+										<div class="articul">Артикул: 17001</div>
+									</div>
+
+									<div class="price">1,1 руб.</div>
+
+									<div class="amount">
+										<div class="box">
+											<button type="button" class="btn minus">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+											</button>
+
+											<input type="text" value="100" class="input" data-minimum="100" data-maximum="9999" data-step="1" data-unit="" maxlength="2">
+
+											<button type="button" class="btn plus">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+											</button>
+										</div>
+
+										<div class="minimum">Мин.покупка от 100 шт.</div>
+									</div>
+
+									<div class="price total">220 руб.</div>
+
+									<button class="delete_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									</button>
+								</div>
+
+								<div class="product">
+									<a href="/" class="thumb" target="_blank">
+										<img data-src="images/tmp/product_img.jpg" alt="" class="lazyload">
+									</a>
+
+									<div class="info">
+										<div class="name">
+											<a href="/" target="_blank">Пакеты курьерские 110*210+40 без кармана/50 мкм</a>
+										</div>
+
+										<div class="articul">Артикул: 17001</div>
+									</div>
+
+									<div class="price">1,1 руб.</div>
+
+									<div class="amount">
+										<div class="box">
+											<button type="button" class="btn minus">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_minus"></use></svg>
+											</button>
+
+											<input type="text" value="100" class="input" data-minimum="100" data-maximum="9999" data-step="1" data-unit="" maxlength="2">
+
+											<button type="button" class="btn plus">
+												<svg class="icon"><use xlink:href="images/sprite.svg#ic_plus"></use></svg>
+											</button>
+										</div>
+
+										<div class="minimum">Мин.покупка от 100 шт.</div>
+									</div>
+
+									<div class="price total">220 руб.</div>
+
+									<button class="delete_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+									</button>
+								</div>
+							</div>
+						</section>
+
+
+						<aside>
+							<div class="cart_total">
+								<div class="item">
+									<div class="label">Сумма заказа</div>
+									<div class="val">220 000 руб.</div>
+								</div>
+
+								<div class="item">
+									<div class="label">Доставка</div>
+									<div class="val">Самовывоз</div>
+								</div>
+
+								<div class="item">
+									<div class="label">Оплата</div>
+									<div class="val">На сайте</div>
+								</div>
+
+								<div class="param">
+									<div class="label">Товаров, шт:</div>
+									<div class="val">3</div>
+								</div>
+
+								<div class="param">
+									<div class="label">Общий вес, кг:</div>
+									<div class="val">5.936</div>
+								</div>
+
+								<button class="checkout_btn scroll_btn" data-anchor="checkout_info">оформить заказ</button>
+
+								<label class="checkbox">
+									<input type="checkbox" name="agree" checked>
+
+									<div class="check">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+									</div>
+
+									<div>Соглашаюсь на обработку моих персональных данных и принимаю <a href="/" target="_blank">политику конфиденциальности</a></div>
+								</label>
+							</div>
+						</aside>
+					</div>
+				</section>
+
+
+				<section class="checkout_info" id="checkout_info">
+					<div class="cont">
+						<form action="" class="form">
+							<div class="section">
+								<div class="block_head">
+									<div class="title">Данные покупателя</div>
+								</div>
+
+								<div class="columns">
+									<div class="line width1of3">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Фамилия">
+										</div>
+									</div>
+
+									<div class="line width1of3">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Имя *">
+										</div>
+									</div>
+
+									<div class="line width1of3">
+										<div class="field">
+											<input type="text" name="" value="" class="input" placeholder="Отчество">
+										</div>
+									</div>
+
+									<div class="line width1of3">
+										<div class="field">
+											<input type="tel" name="" value="" class="input" placeholder="Телефон *">
+										</div>
+									</div>
+
+									<div class="line width1of3">
+										<div class="field">
+											<input type="email" name="" value="" class="input" placeholder="E-mail *">
+										</div>
+									</div>
+
+									<div class="line width2of3">
+										<div class="field">
+											<textarea name="" placeholder="Комментарии"></textarea>
+										</div>
+									</div>
+								</div>
+
+								<div class="line legal_entity">
+									<div class="field">
+										<label class="checkbox">
+											<input type="checkbox" name="legal_entity">
+
+											<div class="check">
+												<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+											</div>
+
+											<div>Оформить заказ как юридическое лицо</div>
+										</label>
+									</div>
+								</div>
+
+								<div class="legal_entity_info">
+									<div class="line file">
+										<div class="field">
+											<input type="file" name="file" id="file">
+											<label for="file">
+												<div class="label">Прикрепить файл с реквизитами</div>
+												<div class="btn">выбрать файл</div>
+											</label>
+										</div>
+									</div>
+
+									<div class="columns">
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Название организации">
+											</div>
+										</div>
+
+										<div class="line width1of4">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="БИК">
+											</div>
+										</div>
+
+										<div class="line width1of4">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Наименование банка">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Юридический адрес">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Корреспондентский счет">
+											</div>
+										</div>
+
+										<div class="line width1of4">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="ИНН">
+											</div>
+										</div>
+
+										<div class="line width1of4">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="КПП">
+											</div>
+										</div>
+
+										<div class="line">
+											<div class="field">
+												<input type="text" name="" value="" class="input" placeholder="Расчетный счет">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+							<div class="section">
+								<div class="block_head">
+									<div class="title">Оплата</div>
+								</div>
+
+								<div class="payment_methods">
+									<div class="row">
+										<label>
+											<input type="radio" name="payment_method" checked>
+
+											<div class="info">
+												<div class="check"></div>
+
+												<div class="name">Онлайн оплата на сайте</div>
+											</div>
+										</label>
+
+										<label>
+											<input type="radio" name="payment_method">
+
+											<div class="info">
+												<div class="check"></div>
+
+												<div class="name">Оплата при получении</div>
+											</div>
+										</label>
+
+										<label>
+											<input type="radio" name="payment_method">
+
+											<div class="info">
+												<div class="check"></div>
+
+												<div class="name">Счет на безнал</div>
+											</div>
+										</label>
+									</div>
+								</div>
+							</div>
+
+							<div class="section">
+								<div class="block_head">
+									<div class="title">Выбор способа доставки</div>
+								</div>
+
+								<div class="delivery_methods">
+									<div class="row">
+										<label data-info="method_info1">
+											<input type="radio" name="delivery_method" checked>
+
+											<div class="info">
+												<div class="check"></div>
+
+												<div class="name">Самовывоз</div>
+
+												<div class="desc">Москва, ул. 2-я Энтузиастов, д. 5, корп 10, склад 10.</div>
+											</div>
+										</label>
+
+										<label data-info="method_info2">
+											<input type="radio" name="delivery_method">
+
+											<div class="info">
+												<div class="check"></div>
+
+												<div class="name">Транспортная компания</div>
+
+												<div class="desc">Доставка не входит в итоговую стоимость заказа и оплачивается отдельно после согласования с оператором.</div>
+
+												<div class="exp">Менеджер свяжется с вами для уточнения деталей и стоимости доставки</div>
+											</div>
+										</label>
+									</div>
+
+									<div class="method_info method_info2">
+										<div class="columns">
+											<div class="line width1of3">
+												<div class="field">
+													<input type="text" name="" value="" class="input" placeholder="Город">
+												</div>
+											</div>
+
+											<div class="line width1of3">
+												<div class="field">
+													<input type="text" name="" value="" class="input" placeholder="Улица">
+												</div>
+											</div>
+
+											<div class="line width1of3">
+												<div class="field row">
+													<input type="number" name="" value="" class="input" placeholder="Квартира/офис">
+
+													<input type="number" name="" value="" class="input" placeholder="Дом">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="submit">
+								<button type="submit" class="submit_btn">купить</button>
+
+								<div class="agree">
+									<label class="checkbox">
+										<input type="checkbox" name="agree" checked>
+
+										<div class="check">
+											<svg><use xlink:href="images/sprite.svg#ic_check"></use></svg>
+										</div>
+
+										<div>Нажимая на кнопку, я соглашаюсь на обработку моих персональных данных и принимаю политику конфиденциальности</div>
+									</label>
+								</div>
+							</div>
+						</form>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="cont row">
+					<div class="col">
+						<div class="logo">
+							<img src="images/logo.png" alt="">
+						</div>
+
+						<div class="copyright">&copy; 2023 ИП Юрьева Юлия Александровна<br> Все права защищены</div>
+
+						<div class="privacy_policy_link">
+							<a href="/">Политика конфиденцальности</a>
+						</div>
+
+						<div class="creator">
+							<a href="/" target="_blank" rel="noopener">Создание сайта <span>Точка.ру</span></a>
+						</div>
+					</div>
+
+					<div class="contacts">
+						<div class="title">Контакты</div>
+
+						<div class="location">Москва, ул. 2-я Энтузиастов, д. 5, корп 10, склад 10.</div>
+
+						<div class="row">
+							<div>
+								<div class="phones">
+									<div><a href="tel:+79786458461">+7(978) 645-84-61</a></div>
+									<div><a href="tel:+79889402023">+7 (988) 940-20-23</a></div>
+									<div><a href="tel:+79265875306">+7 (926) 587-53-06</a></div>
+								</div>
+							</div>
+
+							<div>
+								<button class="callback_btn modal_btn" data-modal="callback_modal">Обратный звонок</button>
+
+								<div class="messengers">
+									<a href="/" target="_blank" rel="noopener nofollow" class="telegram_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_telegram"></use></svg>
+									</a>
+									<a href="/" target="_blank" rel="noopener nofollow" class="whatsapp_link">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_whatsapp"></use></svg>
+									</a>
+								</div>
+							</div>
+
+							<div>
+								<div class="email">
+									<a href="mailto:info@planetapak.ru">info@planetapak.ru</a>
+								</div>
+							</div>
+
+							<div>
+								<div class="email">
+									<a href="mailto:sale@planetapak.ru">sale@planetapak.ru</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="menu">
+						<div><a href="/">О компании</a></div>
+						<div><a href="/">Доставка</a></div>
+						<div><a href="/">Оплата</a></div>
+					</div>
+
+					<div class="links">
+						<div class="title">Каталог</div>
+
+						<div class="items">
+							<div><a href="/">Курьерские пакеты</a></div>
+							<div><a href="/">Упаковочная пленка</a></div>
+							<div><a href="/">Коробки картонные</a></div>
+							<div><a href="/">Пузырьковая пленка</a></div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="block_head">
+				<div class="title">Обратный звонок</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Имя *">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="Телефон *">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">отправить</button>
+				</div>
+
+				<div class="agree">Соглашаюсь на обработку моих персональных данных и принимаю <a href="/">политику конфиденциальности</a></div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="feedback_modal">
+			<div class="block_head">
+				<div class="title">Написать сообщение, задать вопрос</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<textarea name="" placeholder="Сообщение"></textarea>
+					</div>
+				</div>
+
+				<div class="columns">
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Имя *">
+						</div>
+					</div>
+
+					<div class="line">
+						<div class="field">
+							<input type="text" name="" value="" class="input" placeholder="Телефон или e-mail">
+						</div>
+					</div>
+				</div>
+
+				<div class="submit columns">
+					<button type="submit" class="submit_btn">отправить</button>
+
+					<div class="agree">Соглашаюсь на обработку моих персональных данных и принимаю <a href="/">политику конфиденциальности</a></div>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="register_modal">
+			<div class="block_head">
+				<div class="title">Регистрация</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Имя *">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Фамилия">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="tel" name="" value="" class="input" placeholder="Телефон *">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="email" name="" value="" class="input" placeholder="E-mail *">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="password" name="" value="" class="input" placeholder="Пароль *">
+					</div>
+				</div>
+
+				<div class="line">
+					<div class="field">
+						<input type="password" name="" value="" class="input" placeholder="Повторите пароль *">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">зарегистрироваться</button>
+				</div>
+
+				<div class="agree">Соглашаюсь на обработку моих персональных данных и принимаю <a href="/">политику конфиденциальности</a></div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="login_modal">
+			<div class="block_head">
+				<div class="title">Авторизация</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="email" name="" value="" class="input" placeholder="E-mail *">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">войти</button>
+				</div>
+
+				<div class="btns">
+					<button class="btn modal_btn" data-modal="register_modal">Зарегистрироваться</button>
+					<button class="btn modal_btn" data-modal="recovery_modal">Забыли пароль?</button>
+				</div>
+			</form>
+		</section>
+
+
+		<section class="modal" id="recovery_modal">
+			<div class="block_head">
+				<div class="title">Восстановление пароля</div>
+			</div>
+
+			<form action="" class="form">
+				<div class="line">
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Имя *">
+					</div>
+				</div>
+
+				<div class="submit">
+					<button type="submit" class="submit_btn">восстановить</button>
+				</div>
+			</form>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/nice-select2.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

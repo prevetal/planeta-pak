@@ -1,0 +1,157 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .swiper-button-prev
+    {
+        left: 32px;
+    }
+
+    .swiper-button-next
+    {
+        right: 32px;
+    }
+
+
+
+    .block
+    {
+        margin-bottom: 60px;
+    }
+
+
+
+    /*--------------
+        All link
+    --------------*/
+    .all_link
+    {
+        margin-top: 32px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .catalog
+    {
+        margin-right: 40px;
+    }
+
+
+    header .catalog .mini_modal,
+    header .catalog .mini_modal.active
+    {
+        width: 664px;
+    }
+
+
+    header .catalog .mini_modal a
+    {
+        font-size: 16px;
+
+        padding: 12px 24px 12px 28px;
+    }
+
+
+
+    /*-----------------
+        Main slider
+    -----------------*/
+    .main_slider .data
+    {
+        margin-left: 160px;
+    }
+
+
+    .main_slider .bg
+    {
+        border-radius: 0;
+    }
+
+
+
+    /*----------------
+        Categories
+    ----------------*/
+    .categories .grid
+    {
+        grid-gap: 24px;
+    }
+
+
+    .categories .item .name
+    {
+        width: 164px;
+    }
+
+
+    .categories .item.big_h .thumb
+    {
+        height: 648px;
+    }
+
+
+
+    /*---------------------
+        Categories list
+    ---------------------*/
+    .categories_list
+    {
+        margin-bottom: 100px;
+        padding: 60px 0;
+    }
+
+
+    .categories_list .category .thumb
+    {
+        height: 454px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-button-prev
+    {
+        left: -24px;
+    }
+
+    .products .swiper-button-next
+    {
+        right: -24px;
+    }
+
+
+
+    /*------------------
+        Action block
+    ------------------*/
+    .action_block .data
+    {
+        border-radius: 0;
+    }
+
+
+
+    /*-------------------
+        Checkout info
+    -------------------*/
+    .checkout_info .section + .section {
+        margin-top: 80px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 40px 0 32px;
+    }
+}
