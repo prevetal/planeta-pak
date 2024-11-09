@@ -77,9 +77,9 @@
 
     .form .submit
     {
-        margin-top: 0;
-
         flex-wrap: wrap;
+
+        margin-top: 0;
     }
 
 
@@ -247,80 +247,27 @@
     }
 
 
-    .products .list .product .prices
+    .products .list .product
     {
-        display: block;
-        overflow: auto;
-
-        width: calc(100% + 40px);
-        margin: 20px -20px 0;
-        padding: 0 20px;
-
-        white-space: nowrap;
-
-        scrollbar-color: transparent transparent !important;
-        scrollbar-width: thin !important;
-    }
-
-    .products .list .product .prices::-webkit-scrollbar
-    {
-        display: none;
-
-        width: 0 !important;
-        height: 0 !important;
-
-        background-color: transparent !important;
-    }
-
-    .products .list .product .prices::-webkit-scrollbar-thumb
-    {
-        display: none;
-
-        background-color: transparent !important;
+        padding: 16px;
     }
 
 
-    .products .list .product .prices > *
+    .products .list .product .name
     {
-        display: inline-block;
-
-        width: 100px;
-        max-width: none;
-        margin: 0;
-
-        vertical-align: top;
-    }
-
-
-    .products .list .product .buy .price
-    {
-        width: calc(100% - 192px);
+        font-size: 16px;
     }
 
 
     .products .list .product .buy .amount
     {
-        width: 168px;
-    }
-
-
-    .products .list .product .buy_btn
-    {
-        font-size: 17px;
-
-        width: 100%;
-        margin-top: 12px;
-
-        order: 0;
+        width: calc(100% - 107px);
     }
 
 
     .products .list .product .quike_buy_btn
     {
-        font-size: 15px;
-
-        width: 100%;
-        margin-top: 12px;
+        font-size: 14px;
     }
 
 
@@ -639,9 +586,9 @@
 
     .checkout_info .submit
     {
-        padding-top: 16px;
-
         flex-wrap: wrap;
+
+        padding-top: 16px;
     }
 
 
@@ -655,9 +602,9 @@
 
     .checkout_info .submit_btn
     {
-        width: 100%;
-
         order: 2;
+
+        width: 100%;
     }
 
 

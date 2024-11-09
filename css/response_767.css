@@ -452,11 +452,25 @@
 
 
 
+    .products .list .product
+    {
+        padding: 16px 24px;
+
+        border-radius: 16px;
+        background: #fff;
+        box-shadow: 0 0 13.9px 0 rgba(173, 173, 173, .42);
+    }
+
+
     .products .list .product .thumb
     {
         width: 100%;
-        height: 240px;
-        margin-bottom: 20px;
+        height: 254px;
+        margin-bottom: 16px;
+        padding: 0;
+
+        border-radius: 0;
+        box-shadow: none;
     }
 
     .products .list .product .thumb + *
@@ -465,16 +479,263 @@
     }
 
 
+    .products .list .product .articul,
     .products .list .product .video_link
     {
-        top: 193px;
+        display: none;
     }
 
 
     .products .list .product .name
     {
-        font-size: 20px;
+        font-size: 18px;
         line-height: 120%;
+    }
+
+
+    .products .list .product .features
+    {
+        display: none;
+    }
+
+
+    .products .list .product .data
+    {
+        position: relative;
+    }
+
+
+    .products .list .product .prices
+    {
+        position: absolute;
+        z-index: 5;
+        bottom: 0;
+        left: -19px;
+
+        display: none;
+
+        width: calc(100% + 38px);
+        max-width: calc(100% + 38px);
+        padding: 17px 7px 24px;
+
+        border-radius: 8px;
+        background: #fff;
+        box-shadow: 0 0 13.9px rgba(173, 173, 173, .42);
+    }
+
+
+    .products .list .product .prices .close_btn
+    {
+        display: flex;
+    }
+
+
+    .products .list .product .prices .mob_title
+    {
+        display: block;
+    }
+
+
+    .products .list .product .prices .table
+    {
+        display: block;
+        overflow: auto;
+
+        width: calc(100% + 14px);
+        margin: 0 -7px;
+        padding: 0 7px;
+
+        white-space: nowrap;
+
+        scroll-padding: 0 7px;
+        scroll-snap-type: x mandatory;
+        scrollbar-color: transparent transparent !important;
+        scrollbar-width: thin !important;
+    }
+
+
+    .products .list .product .prices .table::-webkit-scrollbar
+    {
+        display: none !important;
+
+        width: 0 !important;
+        height: 0 !important;
+
+        background-color: transparent !important;
+    }
+
+
+    .products .list .product .prices .table::-webkit-scrollbar-thumb
+    {
+        background-color: transparent !important;
+    }
+
+
+    .products .list .product .prices .table > *
+    {
+        display: inline-block;
+
+        max-width: none;
+        margin: 0;
+
+        vertical-align: top;
+
+        scroll-snap-align: start;
+    }
+
+
+    .products .list .product .prices .table > * + *
+    {
+        margin-left: -2px;
+    }
+
+
+    .products .list .product .prices .amount
+    {
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 131%;
+
+        padding: 8px 5px 2px;
+
+        color: #5a5a5a;
+    }
+
+    .products .list .product .prices .price
+    {
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 131%;
+
+        margin-top: 0;
+        padding: 2px 5px 8px;
+
+        color: #5a5a5a;
+        background: #f8f8f8;
+    }
+
+
+    .products .list .product .buy
+    {
+        position: relative;
+
+        margin-top: 12px;
+        padding: 0;
+
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .products .list .product .buy .price
+    {
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 131%;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+
+        width: 100%;
+
+        gap: 9px;
+    }
+
+
+    .products .list .product .buy .price .tooltip_icon
+    {
+        display: flex;
+    }
+
+
+    .products .list .product .buy .amount
+    {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+    .products .list .product .amount .input
+    {
+        font-size: 14px;
+        font-weight: 700;
+
+        height: 48px;
+        padding-bottom: 18px;
+
+        border: none;
+        border-radius: 28px;
+        background: #eee;
+    }
+
+
+    .products .list .product .buy .price.total
+    {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 131%;
+
+        position: absolute;
+        z-index: 3;
+        top: 68px;
+        left: 0;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        width: 200px;
+        max-width: 100%;
+        margin: 0;
+
+        text-align: center;
+    }
+
+
+    .products .list .product .buy .price.total .label
+    {
+        display: none;
+    }
+
+
+    .products .list .product .buy_btn
+    {
+        align-self: flex-start;
+
+        width: 87px;
+        height: 48px;
+        margin-top: 12px;
+    }
+
+
+    .products .list .product .buy_btn .icon
+    {
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .products .list .product .buy_btn .icon + *
+    {
+        display: none;
+    }
+
+
+    .products .list .product .quike_buy_btn
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 16px;
     }
 
 
@@ -587,11 +848,11 @@
     {
         position: relative;
 
+        order: 2;
+
         width: 100%;
         height: auto;
         margin-top: 16px;
-
-        order: 2;
     }
 
     .product_info .images .thumbs .swiper
@@ -729,10 +990,10 @@
 
     .cart_info .product .info
     {
+        align-self: flex-start;
+
         width: calc(100% - 144px);
         padding-top: 36px;
-
-        align-self: flex-start;
     }
 
 
@@ -740,10 +1001,10 @@
     {
         line-height: 48px;
 
+        align-self: flex-start;
+
         width: calc(50% - 90px);
         margin-top: 16px;
-
-        align-self: flex-start;
     }
 
 
@@ -842,9 +1103,9 @@
 
     .checkout_info .submit
     {
-        padding-top: 16px;
-
         flex-wrap: wrap;
+
+        padding-top: 16px;
     }
 
 
@@ -858,9 +1119,9 @@
 
     .checkout_info .submit_btn
     {
-        width: 100%;
-
         order: 2;
+
+        width: 100%;
     }
 
 
@@ -876,9 +1137,9 @@
 
     .advantages .row
     {
-        margin-bottom: -28px;
-
         justify-content: center;
+
+        margin-bottom: -28px;
     }
 
     .advantages .row > *

@@ -494,6 +494,26 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		stickyElements.forEach(el => new hcSticky(el))
 	}
+
+
+	// Mob. product .prices
+	$('.products .list .product .buy .price .tooltip_icon').click(function(e) {
+		e.preventDefault()
+
+		let product = $(this).closest('.product')
+
+		$(this).addClass('active')
+		product.find('.prices').fadeIn(300)
+	})
+
+	$('.products .list .product .prices .close_btn').click(function(e) {
+		e.preventDefault()
+
+		let product = $(this).closest('.product')
+
+		product.find('.buy .price .tooltip_icon').removeClass('active')
+		product.find('.prices').fadeOut(200)
+	})
 })
 
 
