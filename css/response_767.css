@@ -516,7 +516,7 @@
 
         width: calc(100% + 38px);
         max-width: calc(100% + 38px);
-        padding: 19px 7px 24px;
+        padding: 17px 7px 24px;
 
         border-radius: 8px;
         background: #fff;
@@ -592,7 +592,7 @@
 
     .products .list .product .prices .amount
     {
-        font-size: 10px;
+        font-size: 11px;
         font-weight: 700;
         line-height: 131%;
 
@@ -674,9 +674,9 @@
 
     .products .list .product .amount .btn
     {
+        z-index: 5;
         top: 0;
 
-        z-index: 5;
         width: 48px;
         height: 48px;
     }
