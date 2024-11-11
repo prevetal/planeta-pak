@@ -3689,8 +3689,8 @@ aside
 .products .list .product .prices .close_btn
 {
     position: absolute;
-    top: 13px;
-    right: 13px;
+    top: 0;
+    right: 0;
 
     display: none;
     align-content: center;
@@ -3698,8 +3698,8 @@ aside
     flex-wrap: wrap;
     justify-content: center;
 
-    width: 17px;
-    height: 17px;
+    width: 48px;
+    height: 48px;
 
     color: #8e8e93;
 }
@@ -3874,6 +3874,24 @@ aside
     opacity: 0;
     border-radius: 1px;
     background: #fff;
+}
+
+
+.products .list .product .buy .price .tooltip_icon:after
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+
+    width: 48px;
+    height: 48px;
+
+    content: '';
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
 }
 
 
